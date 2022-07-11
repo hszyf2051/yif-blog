@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc96a328-3209-4b14-9b6a-c5684081c503" name="Changes" comment="yif-blog">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/2469181b-ce5d-450e-8d9f-6f45772ed704.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/2469181b-ce5d-450e-8d9f-6f45772ed704/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/2469181b-ce5d-450e-8d9f-6f45772ed704/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/2469181b-ce5d-450e-8d9f-6f45772ed704/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/2469181b-ce5d-450e-8d9f-6f45772ed704/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/yif/admin/AdminApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/yif/admin/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/yif/admin/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/yif/admin/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/yif/admin/mapper/AdminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/yif/admin/mapper/PermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/yif/admin/model/params/PageParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/yif/admin/pojo/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/yif/admin/pojo/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/yif/admin/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/yif/admin/service/Impl/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/yif/admin/service/Impl/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/yif/admin/service/Impl/PermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/yif/admin/service/Impl/SecurityUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/yif/admin/service/PermissionSerivce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/yif/admin/service/SecurityUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/yif/admin/vo/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/yif/admin/vo/ResultVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/bootstrap/assets/ie10-viewport-bug-workaround.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/bootstrap/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/bootstrap/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/bootstrap/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/bootstrap/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/bootstrap/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/bootstrap/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/bootstrap/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/font/summernote.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/font/summernote.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/font/summernote.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/login_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/pages-login-manage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/signin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/spin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/summernote.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/webbase.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/img/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/img/head_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/img/left_hidden.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/angular-select2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/axios-0.18.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/bootstrap/assets/ie-emulation-modes-warning.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/bootstrap/assets/ie10-viewport-bug-workaround.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/bootstrap/assets/ie8-responsive-file-warning.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/bootstrap/assets/vendor/holder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/handlebars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/moment-with-locales.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/plugins/birthday/birthday.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/plugins/citypicker/distpicker.data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/plugins/citypicker/distpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/plugins/jquery-placeholder/jquery.placeholder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/plugins/jquery.easing/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/plugins/jquery.jqzoom/jquery.jqzoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/plugins/jquery.jqzoom/zoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/plugins/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/plugins/sui/sui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/plugins/upload/uploadPreview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/spin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/summernote.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/user_main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/version.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/xlsx.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/pages/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/pages/permission.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/AdminLTE.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/AdminLTE.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/alt/AdminLTE-bootstrap-social.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/alt/AdminLTE-bootstrap-social.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/alt/AdminLTE-fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/alt/AdminLTE-fullcalendar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/alt/AdminLTE-select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/alt/AdminLTE-select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/alt/AdminLTE-without-plugins.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/alt/AdminLTE-without-plugins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/_all-skins.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/_all-skins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-black-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-black-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-black.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-black.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-blue-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-blue-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-blue.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-green-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-green-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-green.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-purple-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-purple-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-purple.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-red-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-red-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-red.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-yellow-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-yellow-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-yellow.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/avatar04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/avatar2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/avatar3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/avatar5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/boxed-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/boxed-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/credit/american-express.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/credit/cirrus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/credit/mastercard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/credit/mestro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/credit/paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/credit/paypal2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/credit/visa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/default-50x50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/photo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/photo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/photo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/photo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/user1-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/user2-160x160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/user3-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/user4-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/user5-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/user6-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/user7-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/user8-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/js/app.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/js/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/js/pages/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/js/pages/dashboard2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/angularjs/angular-animate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/angularjs/angular-route.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/angularjs/angular.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/angularjs/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/angularjs/pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/elementui/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/elementui/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/elementui/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/jQuery/jquery-2.2.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/quill/examples/bubble.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/quill/examples/full.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/quill/examples/snow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/quill/quill.bubble.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/quill/quill.core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/quill/quill.core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/quill/quill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/quill/quill.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/quill/quill.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/quill/quill.snow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/quill/vue-quill-editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/angular-select2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/release.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2-bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2-spinner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2.jquery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_en.js.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_pt-PT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_rs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/yif/admin/AdminApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/yif/admin/config/MybatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/yif/admin/config/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/yif/admin/controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/yif/admin/mapper/AdminMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/yif/admin/mapper/PermissionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/yif/admin/model/params/PageParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/yif/admin/pojo/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/yif/admin/pojo/Permission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/yif/admin/service/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/yif/admin/service/Impl/AdminServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/yif/admin/service/Impl/AuthService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/yif/admin/service/Impl/PermissionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/yif/admin/service/Impl/SecurityUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/yif/admin/service/PermissionSerivce.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/yif/admin/service/SecurityUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/yif/admin/vo/PageResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/yif/admin/vo/ResultVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/css/bootstrap/assets/ie10-viewport-bug-workaround.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/css/bootstrap/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/css/bootstrap/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/css/bootstrap/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/css/bootstrap/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/css/bootstrap/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/css/bootstrap/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/css/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/css/bootstrap/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/css/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/css/font/summernote.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/css/font/summernote.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/css/font/summernote.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/css/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/css/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/css/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/css/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/css/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/css/login_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/css/pages-login-manage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/css/signin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/css/spin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/css/summernote.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/css/webbase.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/img/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/img/head_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/img/left_hidden.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/js/angular-select2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/js/axios-0.18.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/js/bootstrap/assets/ie-emulation-modes-warning.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/js/bootstrap/assets/ie10-viewport-bug-workaround.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/js/bootstrap/assets/ie8-responsive-file-warning.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/js/bootstrap/assets/vendor/holder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/js/handlebars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/js/moment-with-locales.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/js/plugins/birthday/birthday.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/js/plugins/citypicker/distpicker.data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/js/plugins/citypicker/distpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/js/plugins/jquery-placeholder/jquery.placeholder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/js/plugins/jquery.easing/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/js/plugins/jquery.jqzoom/jquery.jqzoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/js/plugins/jquery.jqzoom/zoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/js/plugins/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/js/plugins/sui/sui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/js/plugins/upload/uploadPreview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/js/spin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/js/summernote.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/js/user_main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/js/version.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/js/xlsx.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/pages/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/pages/permission.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/AdminLTE.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/AdminLTE.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/alt/AdminLTE-bootstrap-social.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/alt/AdminLTE-bootstrap-social.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/alt/AdminLTE-fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/alt/AdminLTE-fullcalendar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/alt/AdminLTE-select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/alt/AdminLTE-select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/alt/AdminLTE-without-plugins.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/alt/AdminLTE-without-plugins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/skins/_all-skins.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/skins/_all-skins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/skins/skin-black-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/skins/skin-black-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/skins/skin-black.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/skins/skin-black.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/skins/skin-blue-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/skins/skin-blue-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/skins/skin-blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/skins/skin-blue.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/skins/skin-green-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/skins/skin-green-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/skins/skin-green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/skins/skin-green.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/skins/skin-purple-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/skins/skin-purple-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/skins/skin-purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/skins/skin-purple.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/skins/skin-red-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/skins/skin-red-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/skins/skin-red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/skins/skin-red.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/skins/skin-yellow-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/skins/skin-yellow-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/skins/skin-yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/css/skins/skin-yellow.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/img/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/img/avatar04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/img/avatar2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/img/avatar3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/img/avatar5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/img/boxed-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/img/boxed-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/img/credit/american-express.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/img/credit/cirrus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/img/credit/mastercard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/img/credit/mestro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/img/credit/paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/img/credit/paypal2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/img/credit/visa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/img/default-50x50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/img/photo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/img/photo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/img/photo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/img/photo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/img/user1-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/img/user2-160x160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/img/user3-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/img/user4-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/img/user5-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/img/user6-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/img/user7-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/img/user8-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/js/app.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/js/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/js/pages/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/adminLTE/js/pages/dashboard2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/angularjs/angular-animate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/angularjs/angular-route.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/angularjs/angular.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/angularjs/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/angularjs/pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/elementui/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/elementui/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/elementui/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/jQuery/jquery-2.2.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/quill/examples/bubble.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/quill/examples/full.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/quill/examples/snow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/quill/quill.bubble.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/quill/quill.core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/quill/quill.core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/quill/quill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/quill/quill.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/quill/quill.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/quill/quill.snow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/quill/vue-quill-editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/angular-select2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/release.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2-bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2-spinner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2.jquery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_en.js.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_pt-PT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_rs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2_locale_zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/plugins/select2/select2x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/BlogApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/common/aop/LogAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/common/aop/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/common/aop/MyAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/common/cache/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/common/cache/CacheAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/config/ThreadPoolConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/config/WebMVCConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/controller/CommentsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/controller/LogoutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/controller/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/controller/TagsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/controller/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/dao/mapper/ArticleBodyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/dao/mapper/ArticleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/dao/mapper/ArticleTagMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/dao/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/dao/mapper/CommentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/dao/mapper/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/dao/mapper/TagMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/handler/AllExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/handler/ListenHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/handler/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/pojo/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/pojo/ArticleBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/pojo/ArticleTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/pojo/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/pojo/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/pojo/Tag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/pojo/vo/ArticleBodyVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/pojo/vo/ArticleVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/pojo/vo/CategoryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/pojo/vo/CommentVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/pojo/vo/ErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/pojo/vo/LoginUserVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/pojo/vo/ResultVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/pojo/vo/TagVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/pojo/vo/UserVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/pojo/vo/dos/Archives.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/pojo/vo/params/ArticleBodyParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/pojo/vo/params/ArticleParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/pojo/vo/params/CommentParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/pojo/vo/params/LoginParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/pojo/vo/params/PageParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/service/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/service/CommentsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/service/SysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/service/TagService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/service/ThreadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/service/impl/CommentsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/service/impl/LoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/service/impl/TagServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/utils/HttpContextUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/utils/IpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/utils/JWTUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/utils/QiniuUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/utils/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yif/utils/UserThreadLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/resources/com/yif/dao/mapper/ArticleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/resources/com/yif/dao/mapper/TagMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/blog-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/blog-api-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/BlogApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/common/aop/LogAnnotation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/common/aop/LogAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/common/aop/MyAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/common/cache/Cache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/common/cache/CacheAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/config/MybatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/config/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/config/ThreadPoolConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/config/WebMVCConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/controller/ArticleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/controller/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/controller/CommentsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/controller/LogoutController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/controller/RegisterController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/controller/TagsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/controller/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/controller/UploadController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/dao/mapper/ArticleBodyMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/dao/mapper/ArticleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/dao/mapper/ArticleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/dao/mapper/ArticleTagMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/dao/mapper/CategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/dao/mapper/CommentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/dao/mapper/SysUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/dao/mapper/TagMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/dao/mapper/TagMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/handler/AllExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/handler/ListenHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/handler/LoginInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/pojo/Article.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/pojo/ArticleBody.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/pojo/ArticleTag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/pojo/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/pojo/Comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/pojo/SysUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/pojo/Tag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/pojo/vo/ArticleBodyVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/pojo/vo/ArticleVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/pojo/vo/CategoryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/pojo/vo/CommentVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/pojo/vo/ErrorCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/pojo/vo/LoginUserVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/pojo/vo/ResultVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/pojo/vo/TagVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/pojo/vo/UserVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/pojo/vo/dos/Archives.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/pojo/vo/params/ArticleBodyParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/pojo/vo/params/ArticleParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/pojo/vo/params/CommentParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/pojo/vo/params/LoginParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/pojo/vo/params/PageParams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/service/ArticleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/service/CommentsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/service/LoginService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/service/SysUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/service/TagService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/service/ThreadService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/service/impl/ArticleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/service/impl/CommentsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/service/impl/LoginServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/service/impl/SysUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/service/impl/TagServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/utils/HttpContextUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/utils/IpUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/utils/JWTUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/utils/QiniuUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/utils/RedisUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/classes/com/yif/utils/UserThreadLocal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="yif" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.8.4" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.8.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2BF6NxaNG3w2lRj861DoFMH7ouR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Yif/yif-blog-master/blog-parent",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "show.run.dashboard.notification": "false"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.yif.service" />
+      <recent name="com.yif.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspeace\ideaProject\blog-parent\blog-admin\src\main\resources\static" />
+      <recent name="E:\workspeace\ideaProject\blog-parent\blog-api\src\main\java\com\yif\config" />
+      <recent name="E:\workspeace\ideaProject\blog-parent\blog-api\src\main\java\com\yif\utils" />
+      <recent name="E:\workspeace\ideaProject\blog-parent\blog-api\src\main\java\com\yif\handler" />
+      <recent name="E:\workspeace\ideaProject\blog-parent\blog-api\src\main\java\com\yif\common\aop" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspeace\ideaProject\blog-parent\blog-api\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BlogApp">
+    <configuration name="AdminApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="blog-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yif.admin.AdminApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yif.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="blog-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yif.BlogApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yif.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.BlogApp" />
+        <item itemvalue="Spring Boot.AdminApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc96a328-3209-4b14-9b6a-c5684081c503" name="Changes" comment="" />
+      <created>1656489454775</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656489454775</updated>
+      <workItem from="1656489456034" duration="1700000" />
+      <workItem from="1656491209191" duration="377000" />
+      <workItem from="1656491644734" duration="8122000" />
+      <workItem from="1656518956220" duration="337000" />
+      <workItem from="1656552855933" duration="906000" />
+      <workItem from="1656555745069" duration="6000" />
+      <workItem from="1656556001260" duration="30528000" />
+      <workItem from="1656643867305" duration="5759000" />
+      <workItem from="1656651990434" duration="6010000" />
+      <workItem from="1656663366817" duration="14218000" />
+      <workItem from="1656833277906" duration="19454000" />
+      <workItem from="1656868182928" duration="515000" />
+      <workItem from="1657015227925" duration="3405000" />
+      <workItem from="1657194093926" duration="63000" />
+      <workItem from="1657203418293" duration="7050000" />
+      <workItem from="1657294157698" duration="3816000" />
+      <workItem from="1657298041702" duration="10515000" />
+      <workItem from="1657378737509" duration="3755000" />
+      <workItem from="1657417053168" duration="11736000" />
+      <workItem from="1657504835485" duration="1054000" />
+    </task>
+    <task id="LOCAL-00001" summary="初始化项目">
+      <created>1657213361244</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657213361244</updated>
+    </task>
+    <task id="LOCAL-00002" summary="第二次修改 增加了缓存和Redis增加阅读量">
+      <created>1657296617874</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657296617874</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改部分代码">
+      <created>1657298576688</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657298576688</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="初始化项目" />
+    <MESSAGE value="第二次修改 增加了缓存和Redis增加阅读量" />
+    <MESSAGE value="修改部分代码" />
+    <MESSAGE value="yif-blog" />
+    <option name="LAST_COMMIT_MESSAGE" value="yif-blog" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
